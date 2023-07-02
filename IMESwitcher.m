@@ -43,12 +43,12 @@ int main(int argc, char const *const *argv) {
     // 創建 ISKLSelector 的實例
     ISKLSelector *isklSelector = [[ISKLSelector alloc] init];
 
-    // 使用實例調用 : selectInputMethod 函式
-    NSString *inputMethodID = [NSString stringWithUTF8String:argv[1]];
-    [isklSelector selectInputMethod:inputMethodID];
-
     // 使用實例調用 : selectKeyboardLayout 函式
     NSString *keyboardLayoutID = [NSString stringWithUTF8String:argv[2]];
     [isklSelector selectKeyboardLayout:keyboardLayoutID];
+
+    // 使用實例調用 : selectInputMethod 函式
+    NSString *inputMethodID = [NSString stringWithUTF8String:argv[1]];
+    [isklSelector selectInputMethod:inputMethodID];
   }
 }
