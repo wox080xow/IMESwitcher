@@ -15,7 +15,22 @@ make
 ```
 IMESwitcher <InputSource> <KeyboardLayout>
 ```
+> The operating system macOS 10.15.7 has been tested and passed.
 
+## Preparatory Work
+Setup environment variables.
+Here is the example through appending `~/.zshrc` and sourcing the file.
+```
+cat << EOF >> ~/.zshrc
+# IMESWitcher
+IS_HOME="/path/to/IMESWitcher"
+export PATH="\$IS_HOME:\$PATH"
+EOF
+```
+```
+source ~/.zshrc
+```
+## Example
 ### Switch to Zhuyin IME(注音輸入法)
 ```
 IMESwitcher com.apple.inputmethod.TCIM.Zhuyin com.apple.keylayout.ZhuyinBopomofo
