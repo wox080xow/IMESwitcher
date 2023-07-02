@@ -1,13 +1,17 @@
-# Compile
-Download the source code
+# IMESwitcher
+IMESwitcher is a small utility on macOS that allows users to switch input methods using command-line instructions. It can be used in conjunction with Mac Built-in Automator and Keyboard shortcuts to achieve the functionality of quickly switching to a specified input method using a keyboard shortcut.
+> The operating system macOS 10.15.7 has been tested and passed.
+
+# Installation
+### Download the source code
 ```
 git clone https://github.com/wox080xow/IMESwitcher.git
 ```
-Chenge diretory
+### Chenge diretory
 ```
 cd IMESWitcher
 ```
-Compile
+### Compile
 ```
 make
 ```
@@ -15,10 +19,10 @@ make
 ```
 IMESwitcher <InputSource> <KeyboardLayout>
 ```
-> The operating system macOS 10.15.7 has been tested and passed.
 
 ## Preparatory Work
-Setup environment variables.
+### Setup environment variables 
+
 Here is the example through appending `~/.zshrc` and sourcing the file.
 ```
 cat << EOF >> ~/.zshrc
