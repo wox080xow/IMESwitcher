@@ -1,6 +1,6 @@
 # IMESwitcher
 IMESwitcher is a small utility on macOS that allows users to switch input methods using command-line instructions. It can be used in conjunction with Mac Built-in Automator and Keyboard shortcuts to achieve the functionality of quickly switching to a specified input method using a keyboard shortcut.
-> The operating system macOS 10.15.7 and 13.4 has been tested.
+> The operating system macOS 10.15.7 and 13.4 have been tested.
 
 > If you want to switch to a non-ABC IME input method using Automator, it is recommended to include the following steps in your script: 
 > 1. First, switch to the ABC IME input method
